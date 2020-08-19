@@ -89,3 +89,10 @@ td{
     font-size: x-large;
     font-weight: bold;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-size: x-small;
+}
