@@ -255,4 +255,11 @@ function addHtmlObjectsToTable(objects)
     }
 }
 
+function disableAnimations()
+{
+    document.querySelectorAll("span").forEach((element) =>
+    {
+        element.classList.remove("floating")
+    })
+}
 

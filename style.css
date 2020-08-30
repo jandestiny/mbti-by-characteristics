@@ -2,6 +2,7 @@ body{
     background-color: rgb(0, 0, 22);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    display: block;
 }
 
 #title{
@@ -27,7 +28,8 @@ td{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 .floating{
@@ -39,7 +41,10 @@ td{
 	transform: translatey(0px);
     animation: float 3s ease-out infinite;
     text-align: center;
-    cursor: pointer;
+}
+
+#options{
+    margin-left: 42%;
 }
 
 .clicked{
