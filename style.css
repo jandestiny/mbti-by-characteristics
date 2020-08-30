@@ -2,7 +2,6 @@ body{
     background-color: rgb(0, 0, 22);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    display: block;
 }
 
 #title{
@@ -44,7 +43,16 @@ td{
 }
 
 #options{
-    margin-left: 42%;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.option{
+    display: block;
+    width: 25%;
+    height: 3vh;
+    margin: auto;
 }
 
 .clicked{
